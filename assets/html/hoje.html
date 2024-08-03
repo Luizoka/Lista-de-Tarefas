@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas - hoje</title>
+    <link rel="stylesheet" href="../css/tema-claro.css">
+</head>
+
+<body>
+    <main>
+        <div class="titulo">
+            <h1>ToDo Luiz</h1>
+        </div>
+        <div class="navegacao">
+            <nav>
+                <a href="hoje.html" id="hoje">hoje</a>
+                <a href="../../index.html" id="todos">todos</a>
+                <a href="concluido.html" id="concluido">concluido</a>
+            </nav>
+        </div>
+
+        <div class="tarefas" id="tarefas">
+        </div>
+
+        <div class="incluir-tarefa">
+            <div class="grupo-formulario">
+                <label for="titulo">Título</label>
+                <input type="text" name="titulo" id="titulo">
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data">
+                <button type="submit" id="adicionar-tarefa">Enviar</button>
+            </div>
+            <div class="grupo-formulario">
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao"></textarea>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../js/index.js"></script>
+
+</html>
