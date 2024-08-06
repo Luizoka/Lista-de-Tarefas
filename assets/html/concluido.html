@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas - concluido</title>
-    <link rel="stylesheet" href="../css/tema-claro.css">
+    <link id="theme-style" rel="stylesheet" href="../css/tema-claro.css">
 </head>
 
 <body>
+    <header>
+        <button id="toggle-button" onclick="toggleCSS()">Mudar estilo</button>
+    </header>
     <main>
         <div class="titulo">
             <h1>ToDo Luiz</h1>
         </div>
         <div class="navegacao">
             <nav>
-                <a href="hoje.html">hoje</a>
+                <a href="hoje.html" id="hoje">hoje</a>
                 <a href="../../index.html" id="todos">todos</a>
                 <a href="concluido.html" id="concluido">concluido</a>
             </nav>
